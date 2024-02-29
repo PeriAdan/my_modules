@@ -22,6 +22,6 @@ variable "user_data" {
   type = string
 }
 
-variable "instance_tag" {
+variable "ins_tag" {
   type = string
 }
