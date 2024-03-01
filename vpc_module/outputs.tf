@@ -1,5 +1,5 @@
 output "id" {
-  value = aws_vpc.vpc_module.id
+  value = aws_vpc.vpc.id
 }
 
 output "igw_id" {
