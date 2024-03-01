@@ -12,7 +12,7 @@ resource "aws_vpc" "vpc" {
 resource "aws_internet_gateway" "igw" {
   count = var.create_attach_igw ? 1 : 0
 
-  vpc_id = aws_vpc.vpc.vpc_module
+  vpc_id = aws_vpc.vpc.id
   tags = {
     Name = "${var.vpc_tag}_igw"
   }
