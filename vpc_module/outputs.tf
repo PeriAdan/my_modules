@@ -1,4 +1,4 @@
-output "vpc_module" {
+output "id" {
   value = aws_vpc.vpc_module.id
 }
 
