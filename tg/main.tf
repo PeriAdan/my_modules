@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "target_group" {
-  name     = var.tg_name
+  name     = var.tg-name
   port     = var.tg_port
   protocol = var.tg_protocol
   vpc_id   = var.tg_vpc_id
