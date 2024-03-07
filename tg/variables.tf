@@ -1,4 +1,4 @@
-variable "tg_name" {
+variable "tg-name" {
   
 }
 
